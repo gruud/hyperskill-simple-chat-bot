@@ -1,4 +1,4 @@
-"""Hyperskill Simple Chat Bot implementation - Step 3"""
+"""Hyperskill Simple Chat Bot implementation - Step 4"""
 
 def main():
     """ Main program."""
@@ -17,6 +17,11 @@ def main():
     remainder7 = int(input())
     age = (int(remainder3) * 70 + int(remainder5) * 21 + int(remainder7) * 15) % 105
     print(f"\nYour age is {age}; that's a good time to start programming!")
+
+    count = int(input("Now I will prove to you that I can count to any number you want.\n"))
+    for number in range(0, count+1):
+        print(f"{number} !")
+    print("Completed, have a nice day!")
 
 
 if __name__ == "__main__":
